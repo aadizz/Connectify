@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    /* font-size:100%; */
+    vertical-align:baseline;
+    background:transparent;
+    font-family: Arial, sans-serif;
+}
+.container{
+    background: #136a8a;
+background: -webkit-linear-gradient(to right, #267871, #136a8a);
+background: linear-gradient(to right, #267871, #136a8a); 
+
+  backdrop-filter: blur(5px);
+  max-width: 400px;
+  margin: 80px auto; /* Adjust the margin value to set the distance from the top */
+  padding: 40px;
+  border: 1px solid #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  transition: background-color 0.5s;
+  background-color: #fff;
+}
+.container:hover{
+    transform:scale(1);
+  background:-webkit-linear-gradient(to right, #267871, #136a8a);;
+  box-shadow: 2px 2px 2px #000;
+}
+.container .form-group{
+    margin: 0;
+    padding: 0;
+    color:black;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    text-shadow:0 0 0.1px rgba(0, 0, 0, 1);
+}
+.container h1{
+    color: black;
+    text-align: center;
+    height: 90px;
+    width: auto;
+    text-shadow: 0 0 0.1px rgba(0, 0, 0, 1);
+}
+.container .form-group1 label{
+    text-align: left;
+    font-size: 17px;
+    color:black;
+    text-shadow:0 0 0.1px rgba(0, 0, 0, 1);
+}
+.container .form-group1 input[type="text"]{
+    height: 60px;
+    top: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: linear-gradient(to left, #267871, #136a8a);
+    font-size: 25px;
+    font-weight: 30; 
+}
+.container .form-group2 label{
+    text-align: left;
+    font-size: 17px;
+    color:black;
+    text-shadow: 0 0 0.1px rgba(0, 0, 0, 1);
+}
+.container .form-group2 input{
+    height: 60px;
+    top: 10px;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: linear-gradient(to left, #267871, #136a8a);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+}
+.container .form-group3 input{
+    height: 27px;
+    top: 10px;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: linear-gradient(to left, #267871, #136a8a);
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+    align-items: end;
+}
+.container .form-group3 label{
+    text-align: left;
+    font-size: 17px;
+    color: black;
+    text-shadow: 0 0 0.1px rgba(0, 0, 0, 1);
+}
+.container .form-group4 input{
+    text-align : center;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.container .form-group4 input:hover{
+    background-color: #45a049;
+}
+p{
+    color: black;
+}
+p a{
+    color: rgb(81, 211, 209);
+}
+
+
+
+
+/* comment out section is for further editing do not use them. until you know how to fix all of them right. */
